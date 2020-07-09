@@ -1,0 +1,90 @@
+Layout/EmptyLinesAroundAttributeAccessor:
+  Enabled: false
+Layout/SpaceAroundMethodCallOperator:
+  Enabled: false
+Lint/DeprecatedOpenSSLConstant:
+  Enabled: false
+Lint/MixedRegexpCaptureTypes:
+  Enabled: false
+Lint/RaiseException:
+  Enabled: false
+Lint/StructNewOverride:
+  Enabled: false
+Style/ExponentialNotation:
+  Enabled: false
+Style/HashEachMethods:
+  Enabled: false
+Style/HashTransformKeys:
+  Enabled: false
+Style/HashTransformValues:
+  Enabled: false
+Style/RedundantFetchBlock:
+  Enabled: false
+Style/RedundantRegexpCharacterClass:
+  Enabled: false
+Style/RedundantRegexpEscape:
+  Enabled: false
+Style/SlicingWithRange:
+  Enabled: false
+Style/EvalWithLocation:
+  Enabled: false
+Style/AccessModifierDeclarations:
+  Enabled: false
+Lint/RescueException:
+  Enabled: false
+Lint/UselessAssignment:
+  Enabled: false
+Naming/MethodParameterName:
+  Enabled: false
+Lint/SuppressedException:
+  Enabled: false
+Lint/Void:
+  Enabled: false
+Style/GuardClause:
+  Enabled: false
+Naming/MemoizedInstanceVariableName:
+  Enabled: false
+Naming/ConstantName:
+  Enabled: false
+Naming/HeredocDelimiterNaming:
+  Enabled: false
+Security/Open:
+  Enabled: false
+Lint/AssignmentInCondition:
+  Enabled: false
+Lint/AmbiguousBlockAssociation:
+  Enabled: false
+Naming/AccessorMethodName:
+  Enabled: false
+Style/ClassAndModuleChildren:
+  Enabled: false
+Lint/UnreachableCode:
+  Enabled: false
+Style/MethodMissingSuper:
+  Enabled: false
+Style/MissingRespondToMissing:
+  Enabled: false
+Style/MixinUsage:
+  Enabled: false
+Lint/ShadowingOuterLocalVariable:
+  Enabled: false
+Naming/MethodName:
+  Enabled: false
+Lint/LiteralAsCondition:
+  Enabled: false
+Style/TrivialAccessors:
+  Enabled: false
+
+
+Style/Documentation:
+  Enabled: false
+Metrics/AbcSize:
+  Max: 50
+Metrics/LineLength:
+  Max: 150
+Metrics/MethodLength:
+  Max: 40
+Metrics/ClassLength:
+  Max: 200
+Metrics/PerceivedComplexity:
+  Max: 8
