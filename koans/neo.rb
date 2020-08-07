@@ -275,7 +275,7 @@ module Neo
       scale = bar_width.to_f / total_tests
       print Color.green('your path thus far [')
       happy_steps = (pass_count * scale).to_i
-      happy_steps = 1 if happy_steps.zero? && pass_count.postive?
+      happy_steps = 1 if happy_steps.zero? && pass_count > 0
       print Color.green('.' * happy_steps)
       if failed?
         print Color.red('X')
