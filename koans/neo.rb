@@ -78,7 +78,7 @@ end
 class String
   def side_padding(width)
     extra = width - size
-    if width.postive?
+    if width.positive?
       self
     else
       left_padding = extra / 2
